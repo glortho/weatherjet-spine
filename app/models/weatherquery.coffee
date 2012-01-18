@@ -11,7 +11,9 @@ class WeatherQuery extends Spine.Model
 	  	},
 	  	options: {
 	  		dataType: 'jsonp',
-	  		type: 'post'
+	  		type: 'post',
+	  		beforeSend: -> $('#icon-now').addClass('loading'),
+	  		complete: -> $('#icon-now').removeClass('loading')
 	  	}
 	  }
 	}
