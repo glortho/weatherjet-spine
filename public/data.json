@@ -1,0 +1,859 @@
+
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"geolookup": 1
+		,
+		"conditions": 1
+		,
+		"forecast7day": 1
+		}
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"VA",
+		"city":"Charlottesville",
+		"tz_short":"EST",
+		"tz_long":"America/New_York",
+		"lat":"38.032259",
+		"lon":"-78.466187",
+		"zip":"22906",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:22906.1.99999",
+		"requesturl":"US/VA/Charlottesville.html",
+		"wuiurl":"http://www.wunderground.com/US/VA/Charlottesville.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Charlottesville", "state":"VA", "country":"US", "icao":"KCHO", "lat":"38.13999939", "lon":"-78.44999695" },
+		{ "city":"Louisa", "state":"VA", "country":"US", "icao":"KLKU", "lat":"38.00999832", "lon":"-77.97000122" },
+		{ "city":"Orange", "state":"VA", "country":"US", "icao":"KOMH", "lat":"38.25000000", "lon":"-78.05000305" },
+		{ "city":"Staunton", "state":"VA", "country":"US", "icao":"KSHD", "lat":"38.25999832", "lon":"-78.90000153" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{ "neighborhood":"VADOT I-64_over_Rivanna_River", "city":"Charlottesville", "state":"VA", "country":"US", "id":"MVA008", "distance_km":2, "distance_mi":1 },
+		{ "neighborhood":"Forum Student News", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL28", "distance_km":3, "distance_mi":2 },
+		{ "neighborhood":"River Run Weather", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL32", "distance_km":2, "distance_mi":1 },
+		{ "neighborhood":"Charlottesville 2W", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL22", "distance_km":4, "distance_mi":2 },
+		{ "neighborhood":"Charlottesville 2W: McCormick Observatory", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL8", "distance_km":4, "distance_mi":2 },
+		{ "neighborhood":"Hydraulic and Rt 29", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL30", "distance_km":4, "distance_mi":2 },
+		{ "neighborhood":"Off Hydraulic Road", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL12", "distance_km":5, "distance_mi":3 },
+		{ "neighborhood":"Hollymead", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL29", "distance_km":9, "distance_mi":5 },
+		{ "neighborhood":"N. Albemarle Co.", "city":"Beau Mont Farm", "state":"VA", "country":"US", "id":"KVACHARL9", "distance_km":11, "distance_mi":6 },
+		{ "neighborhood":"Ivy", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL21", "distance_km":12, "distance_mi":7 },
+		{ "neighborhood":"Whippoorwill", "city":"Charlottesville", "state":"VA", "country":"US", "id":"KVACHARL15", "distance_km":12, "distance_mi":7 },
+		{ "neighborhood":"Fairgrove Subdivision", "city":"Earlysville", "state":"VA", "country":"US", "id":"KVAEARLY2", "distance_km":12, "distance_mi":7 },
+		{ "neighborhood":"Stony Point", "city":"Keswick", "state":"VA", "country":"US", "id":"KVAKESWI2", "distance_km":14, "distance_mi":8 },
+		{ "neighborhood":"Fluvanna WX", "city":"Lake Monticello", "state":"VA", "country":"US", "id":"KVALAKEM3", "distance_km":15, "distance_mi":9 },
+		{ "neighborhood":"In the country", "city":"White Hall", "state":"VA", "country":"US", "id":"KVAWHITE3", "distance_km":19, "distance_mi":11 },
+		{ "neighborhood":"Mountain Brook", "city":"Troy", "state":"VA", "country":"US", "id":"KVATROY2", "distance_km":20, "distance_mi":12 },
+		{ "neighborhood":"Yancey Mills", "city":"Crozet", "state":"VA", "country":"US", "id":"KVACROZE4", "distance_km":22, "distance_mi":13 },
+		{ "neighborhood":"The Vineyards", "city":"Barboursville", "state":"VA", "country":"US", "id":"KVABARBO2", "distance_km":23, "distance_mi":13 },
+		{ "neighborhood":"Between Scottsville", "city":"Scottsville", "state":"VA", "country":"US", "id":"KVASCOTT1", "distance_km":25, "distance_mi":15 },
+		{ "neighborhood":"Pollak Vineyards", "city":"Greenwood", "state":"VA", "country":"US", "id":"KVAGREEN2", "distance_km":28, "distance_mi":17 },
+		{ "neighborhood":"RAWS SAWMILL RIDGE VA US", "city":"Greenwood", "state":"VA", "country":"US", "id":"MCROV2", "distance_km":28, "distance_mi":17 },
+		{ "neighborhood":"VA45", "city":"Gordonsville", "state":"VA", "country":"US", "id":"KVAGORDO1", "distance_km":28, "distance_mi":17 },
+		{ "neighborhood":"Little Edge Farm - 2.1 Miles WNW of", "city":"Stanardsville", "state":"VA", "country":"US", "id":"KVASTANA2", "distance_km":30, "distance_mi":18 },
+		{ "neighborhood":"Blue Ridge Observatory - Flattop Mtn", "city":"Dyke", "state":"VA", "country":"US", "id":"KVADYKE1", "distance_km":31, "distance_mi":18 },
+		{ "neighborhood":"Idlebrink Farm", "city":"Greenfield", "state":"VA", "country":"US", "id":"KVAAFTON3", "distance_km":33, "distance_mi":20 },
+		{ "neighborhood":"VADOT I-64_@_Rt_250_Afton_Mtn", "city":"Waynesboro", "state":"VA", "country":"US", "id":"MVA005", "distance_km":34, "distance_mi":20 },
+		{ "neighborhood":"Nelson Co Life Magazine", "city":"Greenfield-Rockfish Valley", "state":"VA", "country":"US", "id":"KXVANEAR1", "distance_km":34, "distance_mi":20 },
+		{ "neighborhood":"Basic City Weather", "city":"Waynesboro", "state":"VA", "country":"US", "id":"KVAWAYNE3", "distance_km":35, "distance_mi":21 },
+		{ "neighborhood":"Old Rockfish Post Office", "city":"Rockfish", "state":"VA", "country":"US", "id":"KVAROCKF2", "distance_km":36, "distance_mi":21 },
+		{ "neighborhood":"MesoWest N PIEDMONT AREC VA US SCAN", "city":"Orange", "state":"VA", "country":"US", "id":"MNPAV2", "distance_km":37, "distance_mi":22 }
+		]
+		}
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Charlottesville, VA",
+		"city":"Charlottesville",
+		"state":"VA",
+		"state_name":"Virginia",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"22906",
+		"latitude":"38.032259",
+		"longitude":"-78.466187",
+		"elevation":"139.00000000"
+		},
+		"observation_location": {
+		"full":"VADOT I-64_over_Rivanna_River, Charlottesville, Virginia",
+		"city":"VADOT I-64_over_Rivanna_River, Charlottesville",
+		"state":"Virginia",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"38.017040",
+		"longitude":"-78.452370",
+		"elevation":"411 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"MVA008",
+		"observation_time":"Last Updated on January 15, 9:02 PM EST",
+		"observation_time_rfc822":"Sun, 15 Jan 2012 21:02:00 -0500",
+		"observation_epoch":"1326679320",
+		"local_time_rfc822":"Sun, 15 Jan 2012 21:57:09 -0500",
+		"local_epoch":"1326682629",
+		"local_tz_short":"EST",
+		"local_tz_long":"America/New_York",
+		"weather":"Clear",
+		"temperature_string":"27 F (-2.8 C)",
+		"temp_f":27,
+		"temp_c":-2.8,
+		"relative_humidity":"72%",
+		"wind_string":"From the SE at 2 MPH Gusting to 5.0 MPH",
+		"wind_dir":"SE",
+		"wind_degrees":125,
+		"wind_mph":2,
+		"wind_gust_mph":"5.0",
+		"pressure_mb":"",
+		"pressure_in":"",
+		"pressure_trend":"",
+		"dewpoint_string":"19 F (-7 C)",
+		"dewpoint_f":19,
+		"dewpoint_c":-7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"27 F (-3 C)",
+		"windchill_f":"27",
+		"windchill_c":"-3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"-25375",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/VA/Charlottesville.html",
+		"history_url":"http://www.wunderground.com/history/airport/MVA008/2012/1/15/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=38.017040,-78.452370"
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:30 PM EST",
+		"forecastday": [
+		{
+		"period":1,
+		"icon":"nt_sunny",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_sunny.gif",
+		"title":"Rest of Tonight",
+		"fcttext":"Mostly clear. Lows around 17. East winds around 5 mph late this evening...becoming light and variable. "
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Martin Luther King Jr Day",
+		"fcttext":"Mostly sunny in the morning...then becoming mostly cloudy. Highs in the mid 40s. South winds 10 to 15 mph. "
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy with a 50 percent chance of rain. Not as cool with lows in the upper 30s. Southwest winds around 10 mph with gusts up to 20 mph. "
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Rain likely. Highs in the mid 50s. Southwest winds 10 to 15 mph with gusts up to 25 mph. Chance of rain 70 percent. "
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Mostly cloudy with a chance of rain showers in the evening...then partly cloudy after midnight. Lows in the upper 20s. Southwest winds 10 to 15 mph...becoming west 5 to 10 mph after midnight. Chance of rain 30 percent. "
+		}
+		,
+		{
+		"period":6,
+		"icon":"sunny",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/sunny.gif",
+		"title":"Wednesday",
+		"fcttext":"Sunny. Highs around 40. "
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_sunny",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_sunny.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Mostly clear. Lows in the lower 20s. "
+		}
+		,
+		{
+		"period":8,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Mostly sunny. Highs in the mid 40s. "
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Mostly cloudy. Lows around 30. "
+		}
+		,
+		{
+		"period":10,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Mostly sunny. Highs in the upper 40s. "
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"Mostly cloudy. Lows in the upper 30s. "
+		}
+		,
+		{
+		"period":12,
+		"icon":"partlysunny",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlysunny.gif",
+		"title":"Saturday",
+		"fcttext":"Partly sunny. Highs in the mid 50s. "
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Mostly cloudy. Lows in the upper 30s. "
+		}
+		,
+		{
+		"period":14,
+		"icon":"partlysunny",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlysunny.gif",
+		"title":"Sunday",
+		"fcttext":"Partly sunny. Highs in the upper 50s. "
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1326682823",
+	"pretty":"10:00 PM EST on January 15, 2012",
+	"day":15,
+	"month":1,
+	"year":2012,
+	"yday":14,
+	"hour":22,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"16",
+		"celsius":"-9"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"mostlysunny",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "NNW",
+		"degrees": 340
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "South",
+		"degrees": 178
+		},
+		"avehumidity": 46,
+		"maxhumidity": 65,
+		"minhumidity": 32
+		}
+		,
+		{"date":{
+	"epoch":"1326769223",
+	"pretty":"10:00 PM EST on January 16, 2012",
+	"day":16,
+	"month":1,
+	"year":2012,
+	"yday":15,
+	"hour":22,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"36",
+		"celsius":"2"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.03,
+		"mm": 0.8
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SSW",
+		"degrees": 200
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SSW",
+		"degrees": 195
+		},
+		"avehumidity": 44,
+		"maxhumidity": 80,
+		"minhumidity": 30
+		}
+		,
+		{"date":{
+	"epoch":"1326855623",
+	"pretty":"10:00 PM EST on January 17, 2012",
+	"day":17,
+	"month":1,
+	"year":2012,
+	"yday":16,
+	"hour":22,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"29",
+		"celsius":"-2"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"skyicon":"mostlycloudy",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.29,
+		"mm": 7.4
+		},
+		"qpf_day": {
+		"in": 0.20,
+		"mm": 5.1
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 1.8
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avehumidity": 86,
+		"maxhumidity": 92,
+		"minhumidity": 59
+		}
+		,
+		{"date":{
+	"epoch":"1326931223",
+	"pretty":"7:00 PM EST on January 18, 2012",
+	"day":18,
+	"month":1,
+	"year":2012,
+	"yday":17,
+	"hour":19,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"22",
+		"celsius":"-6"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"skyicon":"mostlysunny",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "NW",
+		"degrees": 320
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "NW",
+		"degrees": 317
+		},
+		"avehumidity": 44,
+		"maxhumidity": 88,
+		"minhumidity": 38
+		}
+		,
+		{"date":{
+	"epoch":"1327017623",
+	"pretty":"7:00 PM EST on January 19, 2012",
+	"day":19,
+	"month":1,
+	"year":2012,
+	"yday":18,
+	"hour":19,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"29",
+		"celsius":"-2"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "SSW",
+		"degrees": 200
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "SSW",
+		"degrees": 205
+		},
+		"avehumidity": 44,
+		"maxhumidity": 50,
+		"minhumidity": 30
+		}
+		,
+		{"date":{
+	"epoch":"1327104023",
+	"pretty":"7:00 PM EST on January 20, 2012",
+	"day":20,
+	"month":1,
+	"year":2012,
+	"yday":19,
+	"hour":19,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"low": {
+		"fahrenheit":"36",
+		"celsius":"2"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "WSW",
+		"degrees": 250
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "West",
+		"degrees": 260
+		},
+		"avehumidity": 54,
+		"maxhumidity": 63,
+		"minhumidity": 43
+		}
+		,
+		{"date":{
+	"epoch":"1327190423",
+	"pretty":"7:00 PM EST on January 21, 2012",
+	"day":21,
+	"month":1,
+	"year":2012,
+	"yday":20,
+	"hour":19,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"38",
+		"celsius":"3"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "SW",
+		"degrees": 220
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "SW",
+		"degrees": 220
+		},
+		"avehumidity": 58,
+		"maxhumidity": 72,
+		"minhumidity": 50
+		}
+		,
+		{"date":{
+	"epoch":"1327276823",
+	"pretty":"7:00 PM EST on January 22, 2012",
+	"day":22,
+	"month":1,
+	"year":2012,
+	"yday":21,
+	"hour":19,
+	"min":"00",
+	"sec":23,
+	"isdst":"0",
+	"monthname":"January",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"",
+		"celsius":""
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "SSW",
+		"degrees": 205
+		},
+		"avehumidity": 71,
+		"maxhumidity": 85,
+		"minhumidity": 56
+		}
+		]
+		}
+	}
+}

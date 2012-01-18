@@ -1,0 +1,14 @@
+<section id="flash"></section>
+<form id="search-form">
+	<input id="search" type="text" name="location" value="" placeholder="City or Zip" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+	<input type="submit" name="submit" value="go">
+</form>
+<!-- If designing for all browsers, I'd be sure to use html5 boilerplate or not use html5 elements -->
+<header id="header">
+	<div id="location"><%= @helper.location(@location) %></div>
+</header>
+<section id="current_observation"><%- @helper.conditions(@conditions) %></section>
+<section id="forecast-wrapper">
+	<div id="forecast-chart"></div>
+	<div id="forecast"><%- @helper.forecast(@forecast) %></div>
+</section>
